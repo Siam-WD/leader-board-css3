@@ -1,9 +1,51 @@
+
 /* common styles or utilities */
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color:  #F3F1FF;
 }
+/* header styles  */
+header{
+    background: #562EFF;
+    padding: 26px 10px;
+}
+nav{
+    /* width: 1440px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    text-align: center;
+    display: flex;
+    height: 45px ;
+    gap: 15px;
+}
+.logo{
+    height: 50px;
+    width: 45px;
+}
+.idea-title{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+.right-section{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+.right-section a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.profile{
+    height: 50px;
+    width: 50px; 
+}
+
+/* main style start  */
 main{
     display: flex;
     flex-direction: column;
